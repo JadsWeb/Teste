@@ -21,7 +21,18 @@ namespace liberacaoCredito.Controllers
         [Route("LiberacaoCredito")]
         public async Task<ActionResult<ResponseLiberacaoCredito>> LiberacaoCredito([FromBody]RequestLiberacaoCredito request)
         {
-            return Ok( await _liberacaoCreditoService.CreditoDireto(request));
+            if(request.ValorCredito > 1000000)
+                return NotFound(new ResponseLiberacaoCredito(){StatusCredito = "Crédito recusado"});
+            if(request.QtdParcelas < 5 || request.QtdParcelas > 72)
+                return NotFound(new ResponseLiberacaoCredito(){StatusCredito = "Crédito recusado"});
+            if(request.EnumTipoCredito == Enums.TipoCredito.CreditoPJ && request.ValorCredito < 15000)
+                return NotFound(new ResponseLiberacaoCredito(){StatusCredito = "Crédito recusado"});
+            if(request.DataPrimeiroVencimento.Day < (request.DataPrimeiroVencimento.Day + 15))
+                return NotFound(new ResponseLiberacaoCredito(){StatusCredito = "Crédito recusado"});
+            if(request.DataPrimeiroVencimento.Day > (request.DataPrimeiroVencimento.Day + 40))
+                return NotFound(new ResponseLiberacaoCredito(){StatusCredito = "Crédito recusado"});
+
+            return Ok( _liberacaoCreditoService.LiberacaoCredito(request));
         }
     }
 }
