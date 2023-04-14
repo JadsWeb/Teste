@@ -1,0 +1,13 @@
+Query 1
+SELECT c.*, f.*
+FROM Cliente c
+INNER JOIN Financiamento f ON c.CPF = f.CPF
+WHERE UF = 'SP' AND f.TotalParcelasPagas > (f.TotalParcelas * (60/100))
+
+Query 2
+SELECT c.*, p.*
+FROM Cliente c
+INNER JOIN Financiamento f ON c.cpf = f.CPF
+INNER JOIN Parcela p ON p.IdFinanciamento = f.IdFinanciamento
+WHERE DATEDIFF(day,p.DataVencimento, GETDATE()) > 5 
+AND p.DataPagamento IS NULL

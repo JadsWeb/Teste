@@ -1,34 +1,42 @@
 using System.Threading.Tasks;
 using liberacaoCredito.Entity;
 using liberacaoCredito.Enums;
+using liberacaoCredito.Repository;
 
 namespace liberacaoCredito.Service
 {
     public class LiberacaoCreditoService : ILiberacaoCreditoService
     {
+        
+        private readonly ILiberacaoRepository _liberacaoRepository;
+
+        public LiberacaoCreditoService(ILiberacaoRepository liberacaoRepository)
+        {
+            _liberacaoRepository = liberacaoRepository;
+        }
         private ResponseLiberacaoCredito CreditoConsignado(RequestLiberacaoCredito request)
         {
-            throw new System.NotImplementedException();
+            return _liberacaoRepository.CreditoConsignado(request);
         }
 
         private ResponseLiberacaoCredito CreditoDireto(RequestLiberacaoCredito request)
         {
-            throw new System.NotImplementedException();
+            return _liberacaoRepository.CreditoDireto(request);
         }
 
         private ResponseLiberacaoCredito CreditoImobiliario(RequestLiberacaoCredito request)
         {
-            throw new System.NotImplementedException();
+            return _liberacaoRepository.CreditoImobiliario(request);
         }
 
         private ResponseLiberacaoCredito CreditoPF(RequestLiberacaoCredito request)
         {
-            throw new System.NotImplementedException();
+            return _liberacaoRepository.CreditoPF(request);
         }
 
         private ResponseLiberacaoCredito CreditoPJ(RequestLiberacaoCredito request)
         {
-            throw new System.NotImplementedException();
+            return _liberacaoRepository.CreditoPJ(request);
         }
 
         public ResponseLiberacaoCredito LiberacaoCredito(RequestLiberacaoCredito request)

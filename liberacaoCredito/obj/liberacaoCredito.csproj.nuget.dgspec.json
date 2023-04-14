@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jonatas\\Documents\\OD\\OneDrive\\Estudos\\TesteLiberaçãoCredito\\liberacaoCredito\\liberacaoCredito.csproj": {}
+    "C:\\Users\\Jonatas\\Documents\\OD\\OneDrive\\Estudos\\TesteLiberaçãoCredito\\Teste\\liberacaoCredito\\liberacaoCredito.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jonatas\\Documents\\OD\\OneDrive\\Estudos\\TesteLiberaçãoCredito\\liberacaoCredito\\liberacaoCredito.csproj": {
+    "C:\\Users\\Jonatas\\Documents\\OD\\OneDrive\\Estudos\\TesteLiberaçãoCredito\\Teste\\liberacaoCredito\\liberacaoCredito.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonatas\\Documents\\OD\\OneDrive\\Estudos\\TesteLiberaçãoCredito\\liberacaoCredito\\liberacaoCredito.csproj",
+        "projectUniqueName": "C:\\Users\\Jonatas\\Documents\\OD\\OneDrive\\Estudos\\TesteLiberaçãoCredito\\Teste\\liberacaoCredito\\liberacaoCredito.csproj",
         "projectName": "liberacaoCredito",
-        "projectPath": "C:\\Users\\Jonatas\\Documents\\OD\\OneDrive\\Estudos\\TesteLiberaçãoCredito\\liberacaoCredito\\liberacaoCredito.csproj",
+        "projectPath": "C:\\Users\\Jonatas\\Documents\\OD\\OneDrive\\Estudos\\TesteLiberaçãoCredito\\Teste\\liberacaoCredito\\liberacaoCredito.csproj",
         "packagesPath": "C:\\Users\\Jonatas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonatas\\Documents\\OD\\OneDrive\\Estudos\\TesteLiberaçãoCredito\\liberacaoCredito\\obj\\",
+        "outputPath": "C:\\Users\\Jonatas\\Documents\\OD\\OneDrive\\Estudos\\TesteLiberaçãoCredito\\Teste\\liberacaoCredito\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jonatas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -24,6 +24,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -35,13 +36,15 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -53,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
