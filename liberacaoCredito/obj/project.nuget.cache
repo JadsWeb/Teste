@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "NxzqOvQ2RDqNrsPs9ENRYaWpuVg6Qsm0vmttb8+qU6mMttddNdCJ6kIuNZnkR1lYd2XrTLIfGgcOJSz8KU9Cvw==",
+  "dgSpecHash": "vlr+PC0L2814Ckuqlrl5CZaay/igxe52wACr2wki2Cvu6DriNM7xGZWudV2OKZvw52T/r6CAmMbUo4gbsukoLw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jonatas\\Documents\\OD\\OneDrive\\Estudos\\TesteLiberaçãoCredito\\Teste\\liberacaoCredito\\liberacaoCredito.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Jonatas\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Jonatas\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Jonatas\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Jonatas\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Jonatas\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Jonatas\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

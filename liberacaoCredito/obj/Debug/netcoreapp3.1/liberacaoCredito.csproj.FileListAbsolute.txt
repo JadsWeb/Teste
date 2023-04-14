@@ -6,11 +6,16 @@ C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\lib
 C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\liberacaoCredito\bin\Debug\netcoreapp3.1\liberacaoCredito.runtimeconfig.dev.json
 C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\liberacaoCredito\bin\Debug\netcoreapp3.1\liberacaoCredito.dll
 C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\liberacaoCredito\bin\Debug\netcoreapp3.1\liberacaoCredito.pdb
+C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\liberacaoCredito\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\liberacaoCredito\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\liberacaoCredito\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\liberacaoCredito\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\liberacaoCredito\obj\Debug\netcoreapp3.1\liberacaoCredito.csproj.AssemblyReference.cache
 C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\liberacaoCredito\obj\Debug\netcoreapp3.1\liberacaoCredito.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\liberacaoCredito\obj\Debug\netcoreapp3.1\liberacaoCredito.AssemblyInfoInputs.cache
 C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\liberacaoCredito\obj\Debug\netcoreapp3.1\liberacaoCredito.AssemblyInfo.cs
 C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\liberacaoCredito\obj\Debug\netcoreapp3.1\liberacaoCredito.csproj.CoreCompileInputs.cache
+C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\liberacaoCredito\obj\Debug\netcoreapp3.1\liberacaoCredito.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\liberacaoCredito\obj\Debug\netcoreapp3.1\liberacaoCredito.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\liberacaoCredito\obj\Debug\netcoreapp3.1\staticwebassets\liberacaoCredito.StaticWebAssets.Manifest.cache
 C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\liberacaoCredito\obj\Debug\netcoreapp3.1\staticwebassets\liberacaoCredito.StaticWebAssets.Pack.cache
@@ -19,6 +24,7 @@ C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\lib
 C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\liberacaoCredito\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.liberacaoCredito.props
 C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\liberacaoCredito\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.liberacaoCredito.props
 C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\liberacaoCredito\obj\Debug\netcoreapp3.1\liberacaoCredito.RazorTargetAssemblyInfo.cache
+C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\liberacaoCredito\obj\Debug\netcoreapp3.1\liberacaoCredito.csproj.CopyComplete
 C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\liberacaoCredito\obj\Debug\netcoreapp3.1\liberacaoCredito.dll
 C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\liberacaoCredito\obj\Debug\netcoreapp3.1\liberacaoCredito.pdb
 C:\Users\Jonatas\Documents\OD\OneDrive\Estudos\TesteLiberaçãoCredito\Teste\liberacaoCredito\obj\Debug\netcoreapp3.1\liberacaoCredito.genruntimeconfig.cache

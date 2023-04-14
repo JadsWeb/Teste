@@ -30,6 +30,21 @@ namespace liberacaoCredito
             services.AddControllers();
             services.AddSingleton<ILiberacaoCreditoService, LiberacaoCreditoService>();
             services.AddSingleton<ILiberacaoRepository, LiberacaoRepository>();
+
+            services.AddSwaggerGen(s =>
+            {
+                s.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+                {
+                    Version = "v1",
+                    Title = "Web Api with Swagger",
+                    Description = "Swagger liberação credito",
+                    Contact = new Microsoft.OpenApi.Models.OpenApiContact
+                    {
+                        Name = "Jonatas",
+                        Url = new Uri("https://github.com/JadsWeb/Teste")
+                    }
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,6 +64,14 @@ namespace liberacaoCredito
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(s =>
+            {
+                s.RoutePrefix = "swagger";
+                s.SwaggerEndpoint("/swagger/v1/swagger.json", "Api liberação credito");
             });
         }
     }
