@@ -41,7 +41,7 @@ namespace liberacaoCredito
                     Contact = new Microsoft.OpenApi.Models.OpenApiContact
                     {
                         Name = "Jonatas",
-                        Url = new Uri("https://github.com/JadsWeb/Teste")
+                        Url = new Uri("https://github.com/JadsWeb/Credito")
                     }
                 });
             });
