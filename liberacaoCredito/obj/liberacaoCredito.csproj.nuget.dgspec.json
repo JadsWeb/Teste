@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jonatas\\Documents\\OD\\OneDrive\\Estudos\\TesteLiberaçãoCredito\\Teste\\liberacaoCredito\\liberacaoCredito.csproj": {}
+    "C:\\Users\\Jonatas\\Documents\\OD\\OneDrive\\projetos\\C#\\Credito\\liberacaoCredito\\liberacaoCredito.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jonatas\\Documents\\OD\\OneDrive\\Estudos\\TesteLiberaçãoCredito\\Teste\\liberacaoCredito\\liberacaoCredito.csproj": {
+    "C:\\Users\\Jonatas\\Documents\\OD\\OneDrive\\projetos\\C#\\Credito\\liberacaoCredito\\liberacaoCredito.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonatas\\Documents\\OD\\OneDrive\\Estudos\\TesteLiberaçãoCredito\\Teste\\liberacaoCredito\\liberacaoCredito.csproj",
+        "projectUniqueName": "C:\\Users\\Jonatas\\Documents\\OD\\OneDrive\\projetos\\C#\\Credito\\liberacaoCredito\\liberacaoCredito.csproj",
         "projectName": "liberacaoCredito",
-        "projectPath": "C:\\Users\\Jonatas\\Documents\\OD\\OneDrive\\Estudos\\TesteLiberaçãoCredito\\Teste\\liberacaoCredito\\liberacaoCredito.csproj",
+        "projectPath": "C:\\Users\\Jonatas\\Documents\\OD\\OneDrive\\projetos\\C#\\Credito\\liberacaoCredito\\liberacaoCredito.csproj",
         "packagesPath": "C:\\Users\\Jonatas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonatas\\Documents\\OD\\OneDrive\\Estudos\\TesteLiberaçãoCredito\\Teste\\liberacaoCredito\\obj\\",
+        "outputPath": "C:\\Users\\Jonatas\\Documents\\OD\\OneDrive\\projetos\\C#\\Credito\\liberacaoCredito\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jonatas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -62,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

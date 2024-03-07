@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vlr+PC0L2814Ckuqlrl5CZaay/igxe52wACr2wki2Cvu6DriNM7xGZWudV2OKZvw52T/r6CAmMbUo4gbsukoLw==",
+  "dgSpecHash": "o3gK2mPFsbKx0Vzv2bVRnTJOqaF/A/89KNpdnQCxVIjPfbxq8MZ8JH5vC9egadp7puR8O6R+/Hxuz2lyHaHFaw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jonatas\\Documents\\OD\\OneDrive\\Estudos\\TesteLiberaçãoCredito\\Teste\\liberacaoCredito\\liberacaoCredito.csproj",
+  "projectFilePath": "C:\\Users\\Jonatas\\Documents\\OD\\OneDrive\\projetos\\C#\\Credito\\liberacaoCredito\\liberacaoCredito.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jonatas\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Jonatas\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
