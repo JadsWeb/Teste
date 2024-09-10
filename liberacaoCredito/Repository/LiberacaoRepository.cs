@@ -9,14 +9,14 @@ namespace liberacaoCredito.Repository
         private ResponseLiberacaoCredito CalculaCredito(RequestLiberacaoCredito request, int juros)
         {
             var response = new ResponseLiberacaoCredito();
-            response.StatusCredito = "Aprovado";
+            response.StatusCredito = "Apro";
             response.ValorJuros = request.ValorCredito * jurosMeses;
             response.ValorTotalCredito = request.ValorCredito + response.ValorJuros;
             return response;
         }
         public ResponseLiberacaoCredito CreditoConsignado(RequestLiberacaoCredito request)
         {
-            jurosMeses = request.QtdParcelas * 1;
+            jurosMeses = request.QtdParcelas * 2;
             return CalculaCredito(request, jurosMeses);
         }
 
@@ -28,7 +28,7 @@ namespace liberacaoCredito.Repository
 
         public ResponseLiberacaoCredito CreditoImobiliario(RequestLiberacaoCredito request)
         {
-            jurosMeses = request.QtdParcelas * 9;
+            jurosMeses = request.QtdParcelas * 10;
             return CalculaCredito(request, jurosMeses);
         }
 
