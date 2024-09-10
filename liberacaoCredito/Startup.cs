@@ -31,7 +31,7 @@ namespace liberacaoCredito
                 {
                     Version = "v1",
                     Title = "Web Api with Swagger",
-                    Description = "Swagger liberação credito",
+                    Description = "Swagger liberação",
                     Contact = new Microsoft.OpenApi.Models.OpenApiContact
                     {
                         Name = "Jonatas",

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("liberacaoCredito")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92f2215fb6eae56c51da76e67e643d3b60e4559b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a6b4a2aaca12b74dfc1eacbd3597d28ee62dac7")]
 [assembly: System.Reflection.AssemblyProductAttribute("liberacaoCredito")]
 [assembly: System.Reflection.AssemblyTitleAttribute("liberacaoCredito")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
